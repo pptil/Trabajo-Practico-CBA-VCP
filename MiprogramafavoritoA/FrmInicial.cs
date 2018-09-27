@@ -62,6 +62,10 @@ namespace MiprogramafavoritoA
 
         private void btnMatematica_Click(object sender, EventArgs e)
         {
+            mediaplayer.Ctlcontrols.stop();
+            btnActiv.Visible = false;
+            btnPlay.Visible = false;
+            mediaplayer.Visible = false;
             FrmMatematica frmate = new FrmMatematica();
             frmate.ShowDialog();
         }
