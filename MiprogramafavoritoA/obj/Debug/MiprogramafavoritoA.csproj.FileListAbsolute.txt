@@ -1,0 +1,80 @@
+C:\Users\gamck\source\repos\MiprogramafavoritoA\MiprogramafavoritoA\bin\Debug\MiprogramafavoritoA.exe.config
+C:\Users\gamck\source\repos\MiprogramafavoritoA\MiprogramafavoritoA\bin\Debug\MiprogramafavoritoA.exe
+C:\Users\gamck\source\repos\MiprogramafavoritoA\MiprogramafavoritoA\bin\Debug\MiprogramafavoritoA.pdb
+C:\Users\gamck\source\repos\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csprojAssemblyReference.cache
+C:\Users\gamck\source\repos\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmCarga.resources
+C:\Users\gamck\source\repos\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmJuego.resources
+C:\Users\gamck\source\repos\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmMenu.resources
+C:\Users\gamck\source\repos\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.Properties.Resources.resources
+C:\Users\gamck\source\repos\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csproj.GenerateResource.cache
+C:\Users\gamck\source\repos\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csproj.CoreCompileInputs.cache
+C:\Users\gamck\source\repos\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.exe
+C:\Users\gamck\source\repos\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.pdb
+C:\Users\Max\Desktop\MiForm\MiprogramafavoritoA\MiprogramafavoritoA\bin\Debug\MiprogramafavoritoA.exe.config
+C:\Users\Max\Desktop\MiForm\MiprogramafavoritoA\MiprogramafavoritoA\bin\Debug\MiprogramafavoritoA.exe
+C:\Users\Max\Desktop\MiForm\MiprogramafavoritoA\MiprogramafavoritoA\bin\Debug\MiprogramafavoritoA.pdb
+C:\Users\Max\Desktop\MiForm\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csprojAssemblyReference.cache
+C:\Users\Max\Desktop\MiForm\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmCarga.resources
+C:\Users\Max\Desktop\MiForm\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmJuego.resources
+C:\Users\Max\Desktop\MiForm\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmMenu.resources
+C:\Users\Max\Desktop\MiForm\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.Properties.Resources.resources
+C:\Users\Max\Desktop\MiForm\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csproj.GenerateResource.cache
+C:\Users\Max\Desktop\MiForm\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\MiForm\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.exe
+C:\Users\Max\Desktop\MiForm\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.pdb
+C:\Users\Max\Desktop\MiForm\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmTutor.resources
+C:\Users\Max\Desktop\Misistemafavorito\1\MiprogramafavoritoA\MiprogramafavoritoA\bin\Debug\MiprogramafavoritoA.exe.config
+C:\Users\Max\Desktop\Misistemafavorito\1\MiprogramafavoritoA\MiprogramafavoritoA\bin\Debug\MiprogramafavoritoA.exe
+C:\Users\Max\Desktop\Misistemafavorito\1\MiprogramafavoritoA\MiprogramafavoritoA\bin\Debug\MiprogramafavoritoA.pdb
+C:\Users\Max\Desktop\Misistemafavorito\1\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csprojAssemblyReference.cache
+C:\Users\Max\Desktop\Misistemafavorito\1\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmCarga.resources
+C:\Users\Max\Desktop\Misistemafavorito\1\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmJuego.resources
+C:\Users\Max\Desktop\Misistemafavorito\1\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmMenu.resources
+C:\Users\Max\Desktop\Misistemafavorito\1\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmTutor.resources
+C:\Users\Max\Desktop\Misistemafavorito\1\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.Properties.Resources.resources
+C:\Users\Max\Desktop\Misistemafavorito\1\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csproj.GenerateResource.cache
+C:\Users\Max\Desktop\Misistemafavorito\1\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\Misistemafavorito\1\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.exe
+C:\Users\Max\Desktop\Misistemafavorito\1\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.pdb
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\bin\Debug\MiprogramafavoritoA.exe.config
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\bin\Debug\MiprogramafavoritoA.exe
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\bin\Debug\MiprogramafavoritoA.pdb
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\bin\Debug\Interop.WMPLib.dll
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csprojAssemblyReference.cache
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\Interop.WMPLib.dll
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csproj.ResolveComReference.cache
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmCarga.resources
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmJuego.resources
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmMenu.resources
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmTutor.resources
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.Properties.Resources.resources
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csproj.GenerateResource.cache
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csproj.CoreCompileInputs.cache
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.exe
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.pdb
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmInicial.resources
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmActividades.resources
+C:\Users\octav\Desktop\MiprogramafavoritoA\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmNaturales.resources
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\bin\Debug\MiprogramafavoritoA.exe.config
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\bin\Debug\MiprogramafavoritoA.exe
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\bin\Debug\MiprogramafavoritoA.pdb
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\bin\Debug\Interop.WMPLib.dll
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csprojAssemblyReference.cache
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\obj\Debug\Interop.WMPLib.dll
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csproj.ResolveComReference.cache
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmCarga.resources
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmActividades.resources
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmInicial.resources
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmJuego.resources
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmMenu.resources
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmTutor.resources
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.Properties.Resources.resources
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csproj.GenerateResource.cache
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csproj.CoreCompileInputs.cache
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.exe
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.pdb
+C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmMatematica.resources
