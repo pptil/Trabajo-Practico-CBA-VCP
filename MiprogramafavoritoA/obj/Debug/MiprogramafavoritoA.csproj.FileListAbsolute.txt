@@ -78,3 +78,24 @@ C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\
 C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.exe
 C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.pdb
 C:\Users\octav\Desktop\Mi Programa Favorito [ALPHA Release]\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmMatematica.resources
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\bin\Debug\MiprogramafavoritoA.exe.config
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\bin\Debug\MiprogramafavoritoA.exe
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\bin\Debug\MiprogramafavoritoA.pdb
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\bin\Debug\Interop.WMPLib.dll
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csprojAssemblyReference.cache
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\Interop.WMPLib.dll
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csproj.ResolveComReference.cache
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmCarga.resources
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmActividades.resources
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmInicial.resources
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmJuego.resources
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmMatematica.resources
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmMenu.resources
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FrmTutor.resources
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.Properties.Resources.resources
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csproj.GenerateResource.cache
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csproj.CoreCompileInputs.cache
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.exe
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.pdb

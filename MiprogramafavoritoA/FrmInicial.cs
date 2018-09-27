@@ -46,7 +46,7 @@ namespace MiprogramafavoritoA
 
         private void btnPlay_Click_1(object sender, EventArgs e)
         {
-            mediaplayer.URL = @"Cigarra y la hormiga.avi ";
+            mediaplayer.URL = @"Cigarra y hormiga.mp4";
             mediaplayer.Visible = true;
             btnActiv.Visible = false;
             btnPlay.Visible = false;
