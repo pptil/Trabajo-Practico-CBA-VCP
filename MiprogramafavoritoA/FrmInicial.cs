@@ -35,12 +35,15 @@ namespace MiprogramafavoritoA
 
         private void btnNaturales_Click(object sender, EventArgs e)
         {
-            
+            media.controls.stop();
+            FormJuego frmnaturales = new FormJuego();
+            frmnaturales.ShowDialog();
             mediaplayer.Ctlcontrols.stop();
             btnActiv.Visible = false;
             btnPlay.Visible = false;
             mediaplayer.Visible = false;
-            media.controls.stop();
+            
+
             
 
         }
@@ -76,6 +79,15 @@ namespace MiprogramafavoritoA
             FrmMatematica frmate = new FrmMatematica();
             frmate.ShowDialog();
             media.controls.stop();
+        }
+
+        private void BtnBack_Click(object sender, EventArgs e)
+        {
+            media.controls.stop();
+            this.Hide();
+            FrmMenu menu = new FrmMenu();
+            menu.ShowDialog();           
+            this.Close();
         }
     }
 }

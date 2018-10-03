@@ -52,11 +52,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmNaturales.cs">
+    <Compile Include="FormJuego.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmNaturales.designer.cs">
-      <DependentUpon>FrmNaturales.cs</DependentUpon>
+    <Compile Include="FormJuego.designer.cs">
+      <DependentUpon>FormJuego.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmActividades.cs">
       <SubType>Form</SubType>
@@ -99,8 +99,8 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmNaturales.resx">
-      <DependentUpon>FrmNaturales.cs</DependentUpon>
+    <EmbeddedResource Include="FormJuego.resx">
+      <DependentUpon>FormJuego.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmActividades.resx">
       <DependentUpon>FrmActividades.cs</DependentUpon>
@@ -161,66 +161,6 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Atras.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Buho.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Burro.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Caballo.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Cabra.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Comenzar.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Elefante.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Fondo 1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Fondo 2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Gallo.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Gato.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Jirafa.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Mono.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Pajaro.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Perro.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Pollo.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Salir.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Siguiente.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\sound.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Vaca.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\27691030-eliminar-icono-de-la-web-cerrar-símbolo-botón-aplicación-.jpg" />
@@ -311,6 +251,66 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\xm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buho.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Burro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Caballo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cabra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comenzar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Elefante.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gallo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gato.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jirafa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mono.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pajaro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Perro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pollo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Siguiente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vaca.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

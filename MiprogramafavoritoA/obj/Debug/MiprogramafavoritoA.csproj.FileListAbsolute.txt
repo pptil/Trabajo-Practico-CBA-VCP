@@ -99,3 +99,4 @@ C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj
 C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.csproj.CoreCompileInputs.cache
 C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.exe
 C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.pdb
+C:\Users\octav\Documents\GitHub\Trabajo-Practico-CBA-VCP\MiprogramafavoritoA\obj\Debug\MiprogramafavoritoA.FormJuego.resources
