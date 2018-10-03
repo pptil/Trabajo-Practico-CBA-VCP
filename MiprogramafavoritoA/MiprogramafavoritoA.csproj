@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmNaturales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNaturales.designer.cs">
+      <DependentUpon>FrmNaturales.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmActividades.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmNaturales.resx">
+      <DependentUpon>FrmNaturales.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmActividades.resx">
       <DependentUpon>FrmActividades.cs</DependentUpon>
     </EmbeddedResource>
@@ -119,6 +128,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -151,6 +161,156 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buho.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Burro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Caballo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cabra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comenzar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Elefante.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gallo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gato.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jirafa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mono.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pajaro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Perro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pollo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Siguiente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vaca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27691030-eliminar-icono-de-la-web-cerrar-símbolo-botón-aplicación-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27691030-eliminar-icono-de-la-web-cerrar-símbolo-botón-aplicación-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bienvenidos a primero.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bienvenidos-segundo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bienvenidos-tercero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton regresar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton regresar1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton regresar2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn matematica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn matematica_png.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCiencias naturales.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCiencias naturales1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCiencias sociales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnIngles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnLengua.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carga1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carga2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estudiante-Estudiando-60757.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMAGEN DE CARGA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG-20180925-WA0014.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG-20180925-WA0015.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\matematica en mov.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\matematica en mov1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\niña jardin.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power_button_logo--i_14138581158614138520.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profeciones 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profeciones 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xm.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

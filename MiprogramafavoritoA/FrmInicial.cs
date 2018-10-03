@@ -13,7 +13,7 @@ namespace MiprogramafavoritoA
 {
     public partial class FrmInicial : Form
     {
-
+        
         WindowsMediaPlayer media = new WindowsMediaPlayer();
         public FrmInicial()
         {
@@ -35,11 +35,13 @@ namespace MiprogramafavoritoA
 
         private void btnNaturales_Click(object sender, EventArgs e)
         {
+            
             mediaplayer.Ctlcontrols.stop();
             btnActiv.Visible = false;
             btnPlay.Visible = false;
             mediaplayer.Visible = false;
             media.controls.stop();
+            
 
         }
 
