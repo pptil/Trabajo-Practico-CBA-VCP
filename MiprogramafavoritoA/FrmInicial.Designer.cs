@@ -131,6 +131,7 @@
             this.btnSociales.TabIndex = 4;
             this.btnSociales.Text = "CIENCIAS SOCIALES";
             this.btnSociales.UseVisualStyleBackColor = false;
+            this.btnSociales.Click += new System.EventHandler(this.btnSociales_Click);
             // 
             // BtnBack
             // 

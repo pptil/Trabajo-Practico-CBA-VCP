@@ -27,7 +27,7 @@ namespace MiprogramafavoritoA
         int CONTM, CONTI, CONTL, CONTCN, CONTCS;
         string mjeRESULTADO;
         WindowsMediaPlayer mp3;
-
+        WindowsMediaPlayer media = new WindowsMediaPlayer();
 
 
 
@@ -653,6 +653,7 @@ namespace MiprogramafavoritoA
         }
         private void BTnBack_Click(object sender, EventArgs e)
         {
+            media.controls.stop();
             this.Hide();
             FrmMenu frm = new FrmMenu();
             frm.ShowDialog();
@@ -704,7 +705,10 @@ namespace MiprogramafavoritoA
        
         private void FrmJuego_Load(object sender, EventArgs e)
         {
-           
+            media.URL = @"gamemusic2.mp3";
+            media.controls.play();
+            media.settings.setMode("loop", true);
+
             bandera = 0;
             codM = 0;
             tiempo = 0;
@@ -733,6 +737,7 @@ namespace MiprogramafavoritoA
         {
             if (bandera == 1)//matematica
             {
+                
                 mjeboton = tiempo.ToString();
                 BtnEvaluar.Text = mjeboton;
                 tiempo++;
@@ -762,6 +767,7 @@ namespace MiprogramafavoritoA
 
             if (bandera == 2)//Ingles
             {
+                
                 mjeboton = tiempo.ToString();
                 BtnEvaluar.Text = mjeboton;
                 tiempo++;
@@ -788,6 +794,7 @@ namespace MiprogramafavoritoA
             }//Ingles
             if (bandera == 3)//Lengua
             {
+                
                 mjeboton = tiempo.ToString();
                 BtnEvaluar.Text = mjeboton;
                 tiempo++;
@@ -815,6 +822,7 @@ namespace MiprogramafavoritoA
             }//Lengua
             if (bandera == 4)//Ciencia Naturales
             {
+                
                 mjeboton = tiempo.ToString();
                 BtnEvaluar.Text = mjeboton;
                 tiempo++;
@@ -841,6 +849,7 @@ namespace MiprogramafavoritoA
             }// Ciencia Naturales
             if (bandera == 5)//Ciencia Sociales
             {
+                
                 mjeboton = tiempo.ToString();
                 BtnEvaluar.Text = mjeboton;
                 tiempo++;

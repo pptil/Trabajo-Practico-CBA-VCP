@@ -89,5 +89,10 @@ namespace MiprogramafavoritoA
             menu.ShowDialog();           
             this.Close();
         }
+
+        private void btnSociales_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("VERSION BETA: CIENCIAS SOCIALES EN PROGRESO", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
     }
 }
