@@ -610,7 +610,7 @@
             // 
             this.BtnLengua1.BackColor = System.Drawing.Color.YellowGreen;
             this.BtnLengua1.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnLengua1.Location = new System.Drawing.Point(13, 154);
+            this.BtnLengua1.Location = new System.Drawing.Point(14, 154);
             this.BtnLengua1.Name = "BtnLengua1";
             this.BtnLengua1.Size = new System.Drawing.Size(177, 74);
             this.BtnLengua1.TabIndex = 2;

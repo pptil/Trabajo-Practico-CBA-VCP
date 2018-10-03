@@ -13,12 +13,14 @@ namespace MiprogramafavoritoA
 {
     public partial class FrmInicial : Form
     {
-        
-        
+
+        WindowsMediaPlayer media = new WindowsMediaPlayer();
         public FrmInicial()
         {
             InitializeComponent();
-            this.Location = Screen.PrimaryScreen.WorkingArea.Location; this.Size = Screen.PrimaryScreen.WorkingArea.Size;
+            media.URL = @"8bitsong.mp3";
+            media.controls.play();
+            media.settings.setMode("loop", true);
 
         }
 
@@ -28,6 +30,7 @@ namespace MiprogramafavoritoA
             btnPlay.Visible = true;
             mediaplayer.Visible = false;
             mediaplayer.Ctlcontrols.stop();
+            media.controls.stop();
         }
 
         private void btnNaturales_Click(object sender, EventArgs e)
@@ -36,7 +39,8 @@ namespace MiprogramafavoritoA
             btnActiv.Visible = false;
             btnPlay.Visible = false;
             mediaplayer.Visible = false;
-            
+            media.controls.stop();
+
         }
 
         private void btnPlay_Click(object sender, EventArgs e)
@@ -50,14 +54,15 @@ namespace MiprogramafavoritoA
             mediaplayer.Visible = true;
             btnActiv.Visible = false;
             btnPlay.Visible = false;
-            
+            media.controls.stop();
+
         }
 
         private void btnActiv_Click(object sender, EventArgs e)
         {
             FrmActividades frmactiv = new FrmActividades();
             frmactiv.ShowDialog();
-
+            media.controls.stop();
         }
 
         private void btnMatematica_Click(object sender, EventArgs e)
@@ -68,6 +73,7 @@ namespace MiprogramafavoritoA
             mediaplayer.Visible = false;
             FrmMatematica frmate = new FrmMatematica();
             frmate.ShowDialog();
+            media.controls.stop();
         }
     }
 }

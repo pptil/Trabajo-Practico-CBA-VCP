@@ -14,19 +14,22 @@ namespace MiprogramafavoritoA
     public partial class FrmMatematica : Form
     {
         WindowsMediaPlayer media = new WindowsMediaPlayer();
+        WindowsMediaPlayer media2 = new WindowsMediaPlayer();
         int puntaje = 0, contador_imagen;
         bool enable = true;
         public FrmMatematica()
         {
             media.URL = @"seleccion.mp3";
             media.controls.play();
+            media2.URL = @"8bitrocknroll.mp3";
+            media2.controls.play();
             InitializeComponent();           
             contador_imagen = 1;
         }
         //Metodos del Formulario
         private void FrmMatematica_Load(object sender, EventArgs e)
         {
-            this.Location = Screen.PrimaryScreen.WorkingArea.Location; this.Size = Screen.PrimaryScreen.WorkingArea.Size;
+            
             Juego();
         }
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -38,7 +41,9 @@ namespace MiprogramafavoritoA
             enable = true;
             contador_imagen++;
             Juego();
-           
+            media2.URL = @"8bitrocknroll.mp3";
+            media2.controls.play();
+
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -171,7 +176,15 @@ namespace MiprogramafavoritoA
             puntaje++;
             media.URL = @"correcto.mp3";
             media.controls.play();
+            media2.URL = @"win.mp3";
+            media2.controls.play();
         }
+
+        private void FrmMatematica_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            media2.controls.stop();
+        }
+
         private void Perder()
         {
             label1.Text = "QUE LASTIMA! Fallaste";
@@ -181,6 +194,8 @@ namespace MiprogramafavoritoA
             enable = false;
             media.URL = @"incorrecto.mp3";
             media.controls.play();
+            media2.URL = @"lose.mp3";
+            media2.controls.play();
 
         }
     }

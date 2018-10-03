@@ -186,6 +186,7 @@
             this.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.Name = "FrmActividades";
             this.Text = "FrmActividades";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmActividades_FormClosing);
             this.Load += new System.EventHandler(this.FrmActividades_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

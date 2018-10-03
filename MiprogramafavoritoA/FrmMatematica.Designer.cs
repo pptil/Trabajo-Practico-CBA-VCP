@@ -136,6 +136,7 @@
             this.Controls.Add(this.btnNext);
             this.Name = "FrmMatematica";
             this.Text = "FrmMatematica";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmMatematica_FormClosing);
             this.Load += new System.EventHandler(this.FrmMatematica_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
