@@ -136,6 +136,7 @@
             this.button6.TabIndex = 8;
             this.button6.Text = "6";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // FrmMatematica
             // 
@@ -153,6 +154,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnNext);
             this.Name = "FrmMatematica";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmMatematica";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmMatematica_FormClosing);
             this.Load += new System.EventHandler(this.FrmMatematica_Load);

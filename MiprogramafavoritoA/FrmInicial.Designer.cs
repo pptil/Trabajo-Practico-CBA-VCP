@@ -159,6 +159,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmInicial";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmInicial";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.mediaplayer)).EndInit();

@@ -33,10 +33,10 @@
             this.btnSonido = new System.Windows.Forms.Button();
             this.btnAtras = new System.Windows.Forms.Button();
             this.groupBoxOp = new System.Windows.Forms.GroupBox();
-            this.btnOpcion3 = new System.Windows.Forms.Button();
             this.btnOpcion1 = new System.Windows.Forms.Button();
-            this.btnOpcion4 = new System.Windows.Forms.Button();
+            this.btnOpcion3 = new System.Windows.Forms.Button();
             this.btnOpcion2 = new System.Windows.Forms.Button();
+            this.btnOpcion4 = new System.Windows.Forms.Button();
             this.groupBoxRes.SuspendLayout();
             this.groupBoxOp.SuspendLayout();
             this.SuspendLayout();
@@ -107,16 +107,6 @@
             this.groupBoxOp.Visible = false;
             this.groupBoxOp.Enter += new System.EventHandler(this.groupBoxOp_Enter);
             // 
-            // btnOpcion3
-            // 
-            this.btnOpcion3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnOpcion3.Location = new System.Drawing.Point(56, 344);
-            this.btnOpcion3.Name = "btnOpcion3";
-            this.btnOpcion3.Size = new System.Drawing.Size(151, 142);
-            this.btnOpcion3.TabIndex = 20;
-            this.btnOpcion3.UseVisualStyleBackColor = true;
-            this.btnOpcion3.Click += new System.EventHandler(this.btnOpcion3_Click);
-            // 
             // btnOpcion1
             // 
             this.btnOpcion1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -127,15 +117,15 @@
             this.btnOpcion1.UseVisualStyleBackColor = true;
             this.btnOpcion1.Click += new System.EventHandler(this.btnOpcion1_Click);
             // 
-            // btnOpcion4
+            // btnOpcion3
             // 
-            this.btnOpcion4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnOpcion4.Location = new System.Drawing.Point(345, 323);
-            this.btnOpcion4.Name = "btnOpcion4";
-            this.btnOpcion4.Size = new System.Drawing.Size(151, 142);
-            this.btnOpcion4.TabIndex = 18;
-            this.btnOpcion4.UseVisualStyleBackColor = true;
-            this.btnOpcion4.Click += new System.EventHandler(this.btnOpcion4_Click);
+            this.btnOpcion3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnOpcion3.Location = new System.Drawing.Point(56, 344);
+            this.btnOpcion3.Name = "btnOpcion3";
+            this.btnOpcion3.Size = new System.Drawing.Size(151, 142);
+            this.btnOpcion3.TabIndex = 20;
+            this.btnOpcion3.UseVisualStyleBackColor = true;
+            this.btnOpcion3.Click += new System.EventHandler(this.btnOpcion3_Click);
             // 
             // btnOpcion2
             // 
@@ -146,6 +136,16 @@
             this.btnOpcion2.TabIndex = 17;
             this.btnOpcion2.UseVisualStyleBackColor = true;
             this.btnOpcion2.Click += new System.EventHandler(this.btnOpcion2_Click);
+            // 
+            // btnOpcion4
+            // 
+            this.btnOpcion4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnOpcion4.Location = new System.Drawing.Point(345, 323);
+            this.btnOpcion4.Name = "btnOpcion4";
+            this.btnOpcion4.Size = new System.Drawing.Size(151, 142);
+            this.btnOpcion4.TabIndex = 18;
+            this.btnOpcion4.UseVisualStyleBackColor = true;
+            this.btnOpcion4.Click += new System.EventHandler(this.btnOpcion4_Click);
             // 
             // FormJuego
             // 
@@ -160,6 +160,7 @@
             this.Controls.Add(this.groupBoxOp);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "FormJuego";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormJuego";
             this.Load += new System.EventHandler(this.FormJuego_Load);
             this.groupBoxRes.ResumeLayout(false);

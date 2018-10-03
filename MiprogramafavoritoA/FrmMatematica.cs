@@ -120,6 +120,15 @@ namespace MiprogramafavoritoA
             }
            
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (enable ==true)
+            {
+                Perder();
+            }
+        }
+
         //Metodos Propios
         public void Juego()
         {
@@ -161,6 +170,7 @@ namespace MiprogramafavoritoA
                     button3.Visible = false;
                     button4.Visible = false;
                     button5.Visible = false;
+                    button6.Visible = false;
                     break;
             }
 
@@ -185,6 +195,7 @@ namespace MiprogramafavoritoA
             media2.controls.stop();
         }
 
+        
         private void Perder()
         {
             label1.Text = "QUE LASTIMA! Fallaste";

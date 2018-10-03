@@ -625,7 +625,7 @@
             this.PMateria1.Controls.Add(this.BtnLengua1);
             this.PMateria1.Controls.Add(this.BtnMatematica1);
             this.PMateria1.Controls.Add(this.BtenVolver1);
-            this.PMateria1.Font = new System.Drawing.Font("Goudy Stout", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PMateria1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PMateria1.Location = new System.Drawing.Point(3, 41);
             this.PMateria1.Name = "PMateria1";
             this.PMateria1.Size = new System.Drawing.Size(322, 669);
@@ -688,7 +688,7 @@
             this.BtenVolver1.BackgroundImage = global::MiprogramafavoritoA.Properties.Resources.boton_regresar2;
             this.BtenVolver1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.BtenVolver1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtenVolver1.Font = new System.Drawing.Font("Goudy Stout", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtenVolver1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtenVolver1.Location = new System.Drawing.Point(2, 1);
             this.BtenVolver1.Name = "BtenVolver1";
             this.BtenVolver1.Size = new System.Drawing.Size(317, 80);
@@ -842,7 +842,7 @@
             // 
             this.BtnTercerG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnTercerG.BackgroundImage")));
             this.BtnTercerG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnTercerG.Font = new System.Drawing.Font("Goudy Stout", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnTercerG.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnTercerG.Location = new System.Drawing.Point(1, 495);
             this.BtnTercerG.Name = "BtnTercerG";
             this.BtnTercerG.Size = new System.Drawing.Size(290, 174);
@@ -855,7 +855,7 @@
             this.BtnSegundoG.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.BtnSegundoG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnSegundoG.BackgroundImage")));
             this.BtnSegundoG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnSegundoG.Font = new System.Drawing.Font("Goudy Stout", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSegundoG.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSegundoG.Location = new System.Drawing.Point(1, 310);
             this.BtnSegundoG.Name = "BtnSegundoG";
             this.BtnSegundoG.Size = new System.Drawing.Size(290, 177);
@@ -868,7 +868,7 @@
             this.BtnPrimerG.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.BtnPrimerG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnPrimerG.BackgroundImage")));
             this.BtnPrimerG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnPrimerG.Font = new System.Drawing.Font("Goudy Stout", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnPrimerG.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnPrimerG.Location = new System.Drawing.Point(1, 128);
             this.BtnPrimerG.Name = "BtnPrimerG";
             this.BtnPrimerG.Size = new System.Drawing.Size(293, 176);
@@ -975,7 +975,7 @@
             this.BtnVolver3.BackgroundImage = global::MiprogramafavoritoA.Properties.Resources.boton_regresar2;
             this.BtnVolver3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.BtnVolver3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnVolver3.Font = new System.Drawing.Font("Goudy Stout", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnVolver3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnVolver3.Location = new System.Drawing.Point(1, 14);
             this.BtnVolver3.Name = "BtnVolver3";
             this.BtnVolver3.Size = new System.Drawing.Size(317, 80);
@@ -1053,6 +1053,7 @@
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmJuego";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmJuego";
             this.TransparencyKey = System.Drawing.Color.Crimson;
             this.Load += new System.EventHandler(this.FrmJuego_Load);

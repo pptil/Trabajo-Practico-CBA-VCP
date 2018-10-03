@@ -73,6 +73,7 @@ namespace MiprogramafavoritoA
         private void btnMatematica_Click(object sender, EventArgs e)
         {
             mediaplayer.Ctlcontrols.stop();
+            media.controls.stop();
             btnActiv.Visible = false;
             btnPlay.Visible = false;
             mediaplayer.Visible = false;

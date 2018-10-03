@@ -191,6 +191,7 @@
             this.Controls.Add(this.pictureBox1);
             this.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.Name = "FrmActividades";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmActividades";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmActividades_FormClosing);
             this.Load += new System.EventHandler(this.FrmActividades_Load);
