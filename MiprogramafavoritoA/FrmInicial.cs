@@ -26,6 +26,7 @@ namespace MiprogramafavoritoA
 
         private void btnLengua_Click(object sender, EventArgs e)
         {
+            
             btnActiv.Visible = true;
             btnPlay.Visible = true;
             mediaplayer.Visible = false;
@@ -35,6 +36,7 @@ namespace MiprogramafavoritoA
 
         private void btnNaturales_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("VERSION BETA: LA VERSION FINAL TENDRA MAS EJERCICIOS", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             media.controls.stop();
             FormJuego frmnaturales = new FormJuego();
             frmnaturales.ShowDialog();
@@ -65,6 +67,7 @@ namespace MiprogramafavoritoA
 
         private void btnActiv_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("VERSION BETA: LA VERSION FINAJ TENDRA MAS EJERCICIOS", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             FrmActividades frmactiv = new FrmActividades();
             frmactiv.ShowDialog();
             media.controls.stop();
@@ -72,6 +75,7 @@ namespace MiprogramafavoritoA
 
         private void btnMatematica_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("VERSION BETA: LA VERSION FINAJ TENDRA MAS EJERCICIOS", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             mediaplayer.Ctlcontrols.stop();
             media.controls.stop();
             btnActiv.Visible = false;
