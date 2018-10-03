@@ -481,6 +481,7 @@ namespace MiprogramafavoritoA
 
         private void FrmJuego_Load(object sender, EventArgs e)
         {
+            this.Location = Screen.PrimaryScreen.WorkingArea.Location; this.Size = Screen.PrimaryScreen.WorkingArea.Size;
             bandera = 0;
             codM = 0;
             tiempo = 0;

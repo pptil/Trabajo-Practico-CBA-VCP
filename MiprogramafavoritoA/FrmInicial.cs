@@ -18,8 +18,8 @@ namespace MiprogramafavoritoA
         public FrmInicial()
         {
             InitializeComponent();
-            
-            
+            this.Location = Screen.PrimaryScreen.WorkingArea.Location; this.Size = Screen.PrimaryScreen.WorkingArea.Size;
+
         }
 
         private void btnLengua_Click(object sender, EventArgs e)

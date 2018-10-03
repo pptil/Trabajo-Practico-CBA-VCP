@@ -25,7 +25,7 @@ namespace MiprogramafavoritoA
 
         private void FrmMenu_Load(object sender, EventArgs e)
         {
-
+            this.Location = Screen.PrimaryScreen.WorkingArea.Location; this.Size = Screen.PrimaryScreen.WorkingArea.Size;
         }
 
         private void BtnJardin_Click(object sender, EventArgs e)

@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using WMPLib;
 namespace MiprogramafavoritoA
 {
+    
     public partial class FrmActividades : Form
     {
+        WindowsMediaPlayer media = new WindowsMediaPlayer();
         //Variables 
         bool correct = false;
         Int32 contador_actividades = 1, puntuacion;
@@ -20,9 +22,11 @@ namespace MiprogramafavoritoA
         {
             InitializeComponent();
             puntuacion = 0;
+            
         }
         private void FrmActividades_Load(object sender, EventArgs e)
         {
+            this.Location = Screen.PrimaryScreen.WorkingArea.Location; this.Size = Screen.PrimaryScreen.WorkingArea.Size;
             Preguntas();            
         }
         //Metodos del Formulario
@@ -39,11 +43,15 @@ namespace MiprogramafavoritoA
                     puntuacion++;
                     correct = true;
                     Reset();
+                    media.URL = @"correcto.mp3";
+                    media.controls.play();
                 }
                 else
                 {
                     button1.BackColor = Color.Red;
                     correct = false;
+                    media.URL = @"incorrecto.mp3";
+                    media.controls.play();
 
                     Reset();
                 }
@@ -56,6 +64,8 @@ namespace MiprogramafavoritoA
                 button2.BackColor = Color.Red;
                 Texto();
                 correct = false;
+                media.URL = @"incorrecto.mp3";
+                media.controls.play();
                 Reset();
 
             }
@@ -69,12 +79,17 @@ namespace MiprogramafavoritoA
                     button3.BackColor = Color.Green;
                     puntuacion++;
                     correct = true;
+                    media.URL = @"correcto.mp3";
+                    media.controls.play();
                     Reset();
+                    
                 }
                 else
                 {
                     button3.BackColor = Color.Red;
                     correct = false;
+                    media.URL = @"incorrecto.mp3";
+                    media.controls.play();
                     Reset();
                 }
             }
@@ -85,6 +100,8 @@ namespace MiprogramafavoritoA
             {
                 button4.BackColor = Color.Red;
                 correct = false;
+                media.URL = @"incorrecto.mp3";
+                media.controls.play();
                 Reset();
             }
         }
@@ -115,6 +132,8 @@ namespace MiprogramafavoritoA
                     button2.Text = "Conejo";
                     button3.Text = "Tortuga";
                     button4.Text = "Mariposa";
+                    media.URL = "holgazan.mp3";
+                    media.controls.play();
                     break;
                 case 2:
                     label2.Text = "¿Donde pasa la historia?";
@@ -126,6 +145,8 @@ namespace MiprogramafavoritoA
                     button2.Text = "Montaña";
                     button3.Text = "Bosque";
                     button4.Text = "Playa";
+                    media.URL = "historia.mp3";
+                    media.controls.play();
                     break;
                 default:
                     lblPuntuacion.Text = "TU PUNTUACION HA SIDO: " + puntuacion;

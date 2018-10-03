@@ -7,21 +7,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace MiprogramafavoritoA
 {
     public partial class FrmMatematica : Form
-    {       
-        int puntaje = 1, contador_imagen;
+    {
+        WindowsMediaPlayer media = new WindowsMediaPlayer();
+        int puntaje = 0, contador_imagen;
         bool enable = true;
         public FrmMatematica()
         {
+            media.URL = @"seleccion.mp3";
+            media.controls.play();
             InitializeComponent();           
             contador_imagen = 1;
         }
         //Metodos del Formulario
         private void FrmMatematica_Load(object sender, EventArgs e)
         {
+            this.Location = Screen.PrimaryScreen.WorkingArea.Location; this.Size = Screen.PrimaryScreen.WorkingArea.Size;
             Juego();
         }
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -131,7 +136,20 @@ namespace MiprogramafavoritoA
                     pictureBox1.ImageLocation = @"pelota4.jpg";
                     break;
                 default:
-                    label1.Text = "Su puntaje ha sido: " + puntaje;
+                    int puntuacion_final = (puntaje * 100) / 5; 
+                    
+                    if (puntuacion_final < 50)
+                    {
+                        label1.Text = "Su puntaje ha sido: " + puntaje + "\r\n" +  "Mejor suerte la proxima!";                        
+                        label1.ForeColor = Color.Red;
+
+                    }
+                    else
+                    {
+                        label1.Text = "Su puntaje ha sido: " + puntaje + "\r\n" + " Muy Bien!";
+                        label1.ForeColor = Color.Green;
+                    }
+                    
                     pictureBox1.Visible = false;
                     button1.Visible = false;
                     button2.Visible = false;
@@ -151,6 +169,8 @@ namespace MiprogramafavoritoA
             enable = false;
             label1.ForeColor = Color.Green;
             puntaje++;
+            media.URL = @"correcto.mp3";
+            media.controls.play();
         }
         private void Perder()
         {
@@ -159,6 +179,8 @@ namespace MiprogramafavoritoA
             label1.Visible = true;
             btnNext.Visible = true;
             enable = false;
+            media.URL = @"incorrecto.mp3";
+            media.controls.play();
 
         }
     }

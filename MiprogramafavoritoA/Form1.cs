@@ -37,9 +37,9 @@ namespace MiprogramafavoritoA
           
 
          }
-            private void FrmCarga_Load(object sender, EventArgs e)
+        private void FrmCarga_Load(object sender, EventArgs e)
         {
-
+            this.Location = Screen.PrimaryScreen.WorkingArea.Location; this.Size = Screen.PrimaryScreen.WorkingArea.Size;
         }
 
         private void TrCarga_Tick(object sender, EventArgs e)
